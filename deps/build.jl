@@ -35,7 +35,7 @@ end
 
 if is_apple()
     using Homebrew
-    provides( Homebrew.HB, "ffmpeg", libav_libs, os = :Darwin )
+    provides( Homebrew.HB, "ffmpeg@2.8", libav_libs, os = :Darwin )
 end
 
 
